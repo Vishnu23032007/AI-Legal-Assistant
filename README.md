@@ -33,25 +33,25 @@ The workflow below describes the query lifecycle inside the system:
 
 ```mermaid
 graph TD
-    A[User Query (English/Tamil)] --> B{Language Check}
+    A["User Query (English/Tamil)"] --> B{Language Check}
     B -- Tamil --> C[Translate to English]
-    B -- English --> D[Stage 1: Intent Detection]
+    B -- English --> D["Stage 1: Intent Detection"]
     C --> D
     
-    D -->|Illegal / Out of Scope| E[Refusal Response]
-    D -->|Legal Request| F[Stage 2: Domain Categorization]
+    D -->|Illegal / Out of Scope| E["Refusal Response"]
+    D -->|Legal Request| F["Stage 2: Domain Categorization"]
     
-    F -->|Low Confidence| G[Clarification Loop]
-    F -->|High Confidence| H[RAG & FAISS Vector Search]
+    F -->|Low Confidence| G["Clarification Loop"]
+    F -->|High Confidence| H["RAG & FAISS Vector Search"]
     
-    H --> I[Retrieve Relevant Acts & Sections]
-    I --> J[Stage 3: LLM Response Draft]
+    H --> I["Retrieve Relevant Acts & Sections"]
+    I --> J["Stage 3: LLM Response Draft"]
     
-    J --> K[Retrieve Past Precedents & Predict Outcome]
-    K --> L[Generate Complaint Letter PDF]
-    L --> M[Match District Advocates]
-    M --> N[Translate Output if Language is Tamil]
-    N --> O[Deliver Unified Response to Frontend]
+    J --> K["Retrieve Past Precedents & Predict Outcome"]
+    K --> L["Generate Complaint Letter PDF"]
+    L --> M["Match District Advocates"]
+    M --> N["Translate Output if Language is Tamil"]
+    N --> O["Deliver Unified Response to Frontend"]
 ```
 
 ---

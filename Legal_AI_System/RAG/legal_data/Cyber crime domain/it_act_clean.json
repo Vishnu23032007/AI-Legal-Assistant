@@ -1,0 +1,524 @@
+[
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "3",
+    "title": "Section 3.   Authentication of electronic records.",
+    "description": "Previous Next 1[3. Authentication of electronic records.--(1) Subject to the provisions of this section any subscriber may authenticate an electronic record by affixing his digital signature. (2) The authentication of the electronic record shall be effected by the use of asymmetric crypto system and hash function which envelop and transform the initial electronic record into another electronic record. Explanation.--For the purposes of this sub-section, \"hash function\" means an algorithm mapping or translation of one sequence of bits into another, generally smaller, set known as --hash result\" such that an electronic record yields the same hash result every time the algorithm is executed with the same electronic record as its input making it computationally infeasible-- (a) to derive or reconstruct the original electronic record from the hash result produced by the algorithm; (b) that two electronic records can produce the same hash result using the algorithm. (3) Any person by the use of a public key of the subscriber can verify the electronic record. (4) The private key and the public key are unique to the subscriber and constitute a functioning key pair.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "7",
+    "title": "Section 7.   Retention of electronic records.",
+    "description": "Previous Next (1) Where any law provides that documents, records or information shall be retained for any specific period, then, that requirement shall be deemed to have been satisfied if such documents, records or information are retained in the electronic form, if-- (a) the information contained therein remains accessible so as to be usable for a subsequent reference; (b) the electronic record is retained in the format in which it was originally generated, sent or received or in a format which can be demonstrated to represent accurately the information originally generated, sent or received; (c) the details which will facilitate the identification of the origin, destination, date and time of despatch or receipt of such electronic record are available in the electronic record: Provided that this clause does not apply to any information which is automatically generated solely for the purpose of enabling an electronic record to be despatched or received. (2) Nothing in this section shall apply to any law that expressly provides for the retention of documents, records or information in the form of electronic records. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "7A",
+    "title": "Section 7A.   Audit of documents, etc., maintained in electronic form.",
+    "description": "Previous Next 1 [7A. Audit of documents, etc., maintained in electronic form.--Where in any law for the time being in force, there is a provision for audit of documents, records or information, that provision shall also be applicable for audit of documents, records or information processed and maintained in the electronic form.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "9",
+    "title": "Section 9.   Sections 6, 7 and 8 not to confer right to insist document should be accepted in electronic form.",
+    "description": "Previous Next Nothing contained in sections 6, 7 and 8 shall confer a right upon any person to insist that any Ministry or Department of the Central Government or the State Government or any authority or body es tablished by or under any law or controlled or funded by the Central or State Government should accept, issue, create, retain and preserve any document in the form of electronic records or effect any monetary transaction in the electronic form. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "10",
+    "title": "Section 10.   Power to make rules by Central Government in respect of electronic signature.",
+    "description": "Previous Next (a) the type of 1 [electronic signature]; (b) the manner and format in which the 1 [electronic signature] shall be affixed; (c) the manner or procedure which facilitates identification of the person affixing the 1 [electronic signature]; (d) control processes and procedures to ensure adequate integrity, security and confidentiality of electronic records or payments; and (e) any other matter which is necessary to give legal effect to 1 [electronic signatures]. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "10A",
+    "title": "Section 10A.   Validity of contracts formed through electronic means.",
+    "description": "Previous Next 1 [10A. Validity of contracts formed through electronic means.--Where in a contract formation, the communication of proposals, the acceptance of proposals, the revocation of proposals and acceptances, as the case may be, are expressed in electronic form or by means of an electronic records, such contract shall not be deemed to be unenforceable solely on the ground that such electronic form or means was used for that purpose.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "11",
+    "title": "Section 11.   Attribution of electronic records.",
+    "description": "Previous Next An electronic record shall be attributed to the originator-- (a) if it was sent by the originator himself; (b) by a person who had the authority to act on behalf of the originator in respect of that electronic record; or (c) by an information system programmed by or on behalf of the originator to operate automatically Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "12",
+    "title": "Section 12.   Acknowledgment of receipt.",
+    "description": "Previous Next (1) Where the originator has not 1 [stipulated] that the acknowledgment of receipt of electronic record be given in a particular form or by a particular method, an acknowledgment may be given by-- (a) any communication by the addressee, automated or otherwise; or (b) any conduct of the addressee, sufficient to indicate to the originator that the electronic record has been received. (2) Where the originator has stipulated that the electronic record shall be binding only on receipt of an acknowledgment of such electronic record by him, then unless acknowledgment has been so received, the electronic record shall he deemed to have been never sent by the originator. (3) Where the originator has not stipulated that the electronic record shall be binding only on receipt of such acknowledgment, and the acknowledgment has not been received by the originator within the time specified or agreed or, if no time has been specified or agreed to within a reasonable time, then the originator may give notice to the addressee stating that no acknowledgment has been received by him and specifying a reasonable time by which the acknowledgment must be received by him and if no acknowledgment is received within the aforesaid time limit he may after giving notice to the addressee, treat the electronic record as though it has never been sent. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "13",
+    "title": "Section 13.   Time and place of despatch and receipt of electronic record.",
+    "description": "Previous Next (1) Save as otherwise agreed to between the originator and the addressee, the despatch of an electronic record occurs when it enters a computer resource outside the control of the originator. (2) Save as otherwise agreed between the originator and the addressee, the time of receipt of an electronic record shall be determined as follows, namely:-- (a) if the addressee has designated a computer resource for the purpose of receiving electronic records,-- (i) receipt occurs at the time when the electronic record enters the designated computer resource; or (ii) if the electronic record is sent to a computer resource of the addressee that is not the designated computer resource, receipt occurs at the time when the electronic record is retrieved by the addressee; (b) if the addressee has not designated a computer resource along with specified timings, if any, receipt occurs when the electronic record enters the computer resource of the addressee. (3) Save as otherwise agreed to between the originator and the addressee, an electronic record is deemed to be despatched at the place where the originator has his place of business, and is deemed to be received at the place where the addressee has his place of business. (4) The provisions of sub-section (2) shall apply notwithstanding that the place where the computer resource is located may be different from the place where the electronic record is deemed to have been received under sub-section (3). (5) For the purposes of this section,-- (a) if the originator or the addressee has more than one place of business, the principal place of business, shall be the place of business; (b) if the originator or the addressee does not have a place of business, his usual place of residence shall be deemed to be the place of business; (c) \"usual place of residence\", in relation to a body corporate, means the place where it is registered. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "15",
+    "title": "Section 15.   Secure electronic signature.",
+    "description": "Previous Next 1 [15. Secure electronic signature.--An electronic signature shall be deemed to be a secure electronic signature if-- (i) the signature creation data, at the time of affixing signature, was under the exclusive control of signatory and no other person; and (ii) the signature creation data was stored and affixed in such exclusive manner as may be prescribed. Explanation.--In case of digital signature, the \"signature creation data\" means the private key of the subscriber.] 1Subs. by s 11, ibid., for sections 15 and 16 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "18",
+    "title": "Section 18.   Functions of Controller.",
+    "description": "Previous Next The Controller may perform all or any of the following functions, namely:-- (a) exercising supervision over the activities of the Certifying Authorities; (b) certifying public keys of the Certifying Authorities; (c) laying down the standards to be maintained by the Certifying Authorities; (d) specifying the qualifications and experience which employees of the Certifying Authority should possess; (e) specifying the conditions subject to which the Certifying Authorities shall conduct their business; (f) specifying the contents of written, printed or visual materials and advertisements that may be distributed or used in respect of a 1 [electronic signature] Certificate and the public key; (g) specifying the form and content of a 1 [electronic signature] Certificate and the key; (h) specifying the form and manner in which accounts shall be maintained by the Certifying Authorities; (i) specifying the terms and conditions subject to which auditors may be appointed and the remuneration to be paid to them; (j) facilitating the establishment of any electronic system by a Certifying Authority either solely or jointly with other Certifying Authorities and regulation of such systems; (k) specifying the manner in which the Certifying Authorities shall conduct their dealings with the subscribers; (l) resolving any conflict of interests between the Certifying Authorities and the subscribers; (m) laying down the duties of the Certifying Authorities; (n) maintaining a data base containing the disclosure record of every Certifying Authority containing such particulars as may be specified by regulations, which shall be accessible to public. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "21",
+    "title": "Section 21.   Licence to issue electronic signature Certificates.",
+    "description": "Previous Next (2) No licence shall be issued under sub-section (1), unless the applicant fulfils such requirements with respect to qualification, expertise, manpower, financial resources and other infrastructure facilities, which are necessary to issue 1 [electronic signature] Certificates as may be prescribed by the Central Government. (3) A licence granted under this section shall-- (a) be valid for such period as may be prescribed by the Central Government; (b) not be transferable or heritable; (c) be subject to such terms and conditions as may be specified by the regulations. 1 Subs. by Act 10 of 2009, s. 2, for \"Digital Signature\" (w.e.f. 27-10-2009) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "22",
+    "title": "Section 22.   Application for licence.",
+    "description": "Previous Next (1) Every application for issue of a licence shall be in such form as may be prescribed by the Central Government. (2) Every application for issue of a licence shall be accompanied by-- (a) a certification practice statement; (b) a statement including the procedures with respect to identification of the applicant; (c) payment of such fees, not exceeding twenty-five thousand rupees as may be prescribed by the Central Government; (d) such other documents, as may be prescribed by the Central Government. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "23",
+    "title": "Section 23.   Renewal of licence.",
+    "description": "Previous Next An application for renewal of a licence shall be-- (a) in such form; (b) accompanied by such fees, not exceeding five thousand rupees, as may be prescribed by the Central Government and shall be made not less than forty-five days before the date of expiry of the period of validity of the licence. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "25",
+    "title": "Section 25.   Suspension of licence.",
+    "description": "Previous Next (1) The Controller may, if he is satisfied after making such inquiry, as he may think fit, that a Certifying Authority has-- (a) made a statement in, or in relation to, the application for the issue or renewal of the licence, which is incorrect or false in material particulars; (b) failed to comply with the terms and conditions subject to which the licence was granted; 1 [(c) failed to maintain the procedures and standards specified in section 30;] (d) contravened any provisions of this Act, rule, regulation or order made thereunder, revoke the licence: Provided that no licence shall be revoked unless the Certifying Authority has been given a reasonable opportunity of showing cause against the proposed revocation. (2) The Controller may, if he has reasonable cause to believe that there is any ground for revoking a licence under sub-section (1), by order suspend such licence pending the completion of any enquiry ordered by him: Provided that no licence shall be suspended for a period exceeding ten days unless the Certifying Authority has been given a reasonable opportunity of showing cause against the proposed suspension. (3) No Certifying Authority whose licence has been suspended shall issue any 2 [electronic signature] Certificate during such suspension 1Subs. by notification No. S.O. 1015(E) (w.e.f. 19-9-2002) 2 Subs. by Act 10 of 2009, s. 2, for \"Digital Signature\" (w.e.f. 27-10-2009) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "26",
+    "title": "Section 26.   Notice of suspension or revocation of licence.",
+    "description": "Previous Next (1) Where the licence of the Certifying Authority is suspended or revoked, the Controller shall publish notice of such suspension or revocation, as the case may be, in the data base maintained by him. (2) Where one or more repositories are specified, the Controller shall publish notices of such suspension or revocation, as the case may be, in all such repositories: Provided that the data base containing the notice of such suspension or revocation, as the case may be, shall be made available through a web site which shall be accessible round the clock: Provided further that the Controller may, if he considers necessary, publicise the contents of data base in such electronic or other media, as he may consider appropriate. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "27",
+    "title": "Section 27.   Power to delegate.",
+    "description": "Previous Next The Controller may, in writing, authorise the Deputy Controller, Assistant Controller or any officer to exercise any of the powers of the Controller under this Chapter. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "28",
+    "title": "Section 28.   Power to investigate contraventions.",
+    "description": "Previous Next (1) The Controller or any officer authorised by him in this behalf shall take up for investigation any contravention of the provisions of this Act, rules or regulations made thereunder. (2) The Controller or any officer authorised by him in this behalf shall exercise the like powers which are conferred on Income-tax authorities under Chapter XIII of the Income-tax Act, 1961 (43 of 1961), and shall exercise such powers, subject to such limitations laid down under that Act. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "29",
+    "title": "Section 29.   Access to computers and data.",
+    "description": "Previous Next (1) Without prejudice to the provisions of sub-section (1) of section 69, the Controller or any person authorised by him shall, if he has reasonable cause to suspect that 1 [any contravention of the provisions of this Chapter] has been committed, have access to any computer system, any apparatus, data or any other material connected with such system, for the purpose of searching or causing a search to be made for obtaining any information or data contained in or available to such computer system. (2) For the purposes of sub-section (1), the Controller or any person authorised by him may, by order, direct any person in charge of, or otherwise concerned with the operation of, the computer system, data apparatus or material, to provide him with such reasonable technical and other assistance as he may consider necessary 1 Subs. by s. 14, ibid., for \"any contravention of the provisions of this Act, rules and regulations made thereunder\" (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "31",
+    "title": "Section 31.   Certifying Authority to ensure compliance of the Act, etc.",
+    "description": "Previous Next Every Certifying Authority shall ensure that every person employed or otherwise engaged by it complies, in the course of his employment or engagement, with the provisions of this Act, rules, regulations and orders made thereunder. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "32",
+    "title": "Section 32.   Display of licence.",
+    "description": "Previous Next Every Certifying Authority shall display its licence at a conspicuous place of the premises in which it carries on its business. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "33",
+    "title": "Section 33.   Surrender of licence.",
+    "description": "Previous Next (1) Every Certifying Authority whose licence is suspended or revoked shall immediately after such suspension or revocation, surrender the licence to the Controller. (2) Where any Certifying Authority fails to surrender a licence under sub-section (1), the person in whose favour a licence is issued, shall be guilty of an offence and shall be 1]liable to penalty which may extend to five lakh rupees]. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "34",
+    "title": "Section 34.   Disclosure.",
+    "description": "Previous Next (1) Every Certifying Authority shall disclose in the manner specified by regulations-- (a) its 1 [electronic signature] Certificate 2 ***; (b) any certification practice statement relevant thereto; (c) notice of the revocation or suspension of its Certifying Authority certificate, if any; and (d) any other fact that materially and adversely affects either the reliability of a 1 [electronic signature] Certificate, which that Authority has issued, or the Authority's ability to perform its services. (2) Where in the opinion of the Certifying Authority any event has occurred or any situation has arisen which may materially and adversely affect the integrity of its computer system or the conditions subject to which a 1 [electronic signature] Certificate was granted, then, the Certifying Authority shall-- (a) use reasonable efforts to notify any person who is likely to be affected by that occurrence; or (b) act in accordance with the procedure specified in its certification practice statement to deal with such event or situation. 1Subs. by Act 10 of 2009, s. 2, for \"Digital Signature\" (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "35",
+    "title": "Section 35.   Certifying authority to issue electronic signature Certificate.",
+    "description": "Previous Next (2) Every such application shall be accompanied by such fee not exceeding twenty-five thousand rupees as may be prescribed by the Central Government, to be paid to the Certifying Authority: Provided that while prescribing fees under sub-section (2) different fees may be prescribed for different classes of applicants. (3) Every such application shall be accompanied by a certification practice statement or where there is no such statement, a statement containing such particulars, as may be specified by regulations. (4) On receipt of an application under sub-section (1), the Certifying Authority may, after consideration of the certification practice statement or the other statement under sub-section (3) and after making such enquiries as it may deem fit, grant the 1[electronic signature] Certificate or for reasons to be recorded in writing, reject the application: 2* * * * * 3[Provided] that no application shall be rejected unless the applicant has been given a reasonable opportunity of showing cause against the proposed rejection. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "36",
+    "title": "Section 36.   Representations upon issuance of Digital signature Certificate.",
+    "description": "Previous Next A Certifying Authority while issuing a Digital Signature Certificate shall certify that-- (a) it has complied with the provisions of this Act and the rules and regulations made thereunder; (b) it has published the Digital Signature Certificate or otherwise made it available to such person relying on it and the subscriber has accepted it; (c) the subscriber holds the private key corresponding to the public key, listed in the Digital Signature Certificate; 1 [(ca) the subscriber holds a private key which is capable of creating a digital signature; (cb) the public key to be listed in the certificate can be used to verify a digital signature affixed by the private key held by the subscriber;] (d) the subscriber's public key and private key constitute a functioning key pair; (e) the information contained in the Digital Signature Certificate is accurate; and (f) it has no knowledge of any material fact, which if it had been included in the Digital Signature Certificate would adversely affect the reliability of the representations in clauses (a) to (d). 1 Ins. by Act 10 of 2009, s. 18 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "37",
+    "title": "Section 37.   Suspension of Digital Signature Certificate.",
+    "description": "Previous Next (1) Subject to the provisions of sub-section (2), the Certifying Authority which has issued a Digital Signature Certificate may suspend such Digital Signature Certificate,– (a) on receipt of a request to that effect from– (i) the subscriber listed in the Digital Signature Certificate; or (ii) any person duly authorised to act on behalf of that subscriber; (b) if it is of opinion that the Digital Signature Certificate should be suspended in public interest. (2) A Digital Signature Certificate shall not be suspended for a period exceeding fifteen days unless the subscriber has been given an opportunity of being heard in the matter. (3) On suspension of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "38",
+    "title": "Section 38.   Revocation of Digital Signature Certificate.",
+    "description": "Previous Next (1) A Certifying Authority may revoke a Digital Signature Certificate issued by it-- (a) where the subscriber or any other person authorised by him makes a request to that effect; or (b) upon the death of the subscriber; or (c) upon the dissolution of the firm or winding up of the company where the subscriber is a firm or a company. (2) Subject to the provisions of sub-section (3) and without prejudice to the provisions of sub-section (1), a Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time, if it is of opinion that-- (a) a material fact represented in the Digital Signature Certificate is false or has been concealed; (b) a requirement for issuance of the Digital Signature Certificate was not satisfied; (c) the Certifying Authority's private key or security system was compromised in a manner materially affecting the Digital Signature Certificate's reliability; (d) the subscriber has been declared insolvent or dead or where a subscriber is a firm or a company, which has been dissolved, wound-up or otherwise ceased to exist. (3) A Digital Signature Certificate shall not be revoked unless the subscriber has been given an opportunity of being heard in the matter. (4) On revocation of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "39",
+    "title": "Section 39.   Notice of suspension or revocation.",
+    "description": "Previous Next (1) Where a Digital Signature Certificate is suspended or revoked under section 37 or section 38, the Certifying Authority shall publish a notice of such suspension or revocation, as the case may be, in the repository specified in the Digital Signature Certificate for publication of such notice. (2) Where one or more repositories are specified, the Certifying Authority shall publish notices of such suspension or revocation, as the case may be, in all such repositories. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "40A",
+    "title": "Section 40A.   Duties of subscriber of Electronic Signature Certificate.",
+    "description": "Previous Next 1 [40A. Duties of subscriber of Electronic Signature Certificate.--In respect of Electronic Signature Certificate the subscriber shall perform such duties as may be prescribed.] 1Ins. by Act 10 of 2009, s. 19 (w.e.f. 27-10-2009) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "41",
+    "title": "Section 41.   Acceptance of Digital Signature Certificate.",
+    "description": "Previous Next (1) A subscriber shall be deemed to have accepted a Digital Signature Certificate if he publishes or authorises the publication of a Digital Signature Certificate-- (a) to one or more persons; (b) in a repository; or otherwise demonstrates his approval of the Digital Signature Certificate in any manner. (2) By accepting a Digital Signature Certificate the subscriber certifies to all who reasonably rely on the information contained in the Digital Signature Certificate that-- (a) the subscriber holds the private key corresponding to the public key listed in the Digital Signature Certificate and is entitled to hold the same; (b) all representations made by the subscriber to the Certifying Authority and all material relevant to the information contained in the Digital Signature Certificate are true; (c) all information in the Digital Signature Certificate that is within the knowledge of the subscriber is true. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "43",
+    "title": "Section 43.   Penalty and compensation for damage to computer, computer system, etc.",
+    "description": "Previous Next 1[43. 2 [Penalty and compensation] for damage to computer, computer system, etc.--If any person without permission of the owner or any other person who is in charge of a computer, computer system or computer network,-- (a) accesses or secures access to such computer, computer system or computer network 3 [or computer resource]; (b) downloads, copies or extracts any data, computer data base or information from such computer, computer system or computer network including information or data held or stored in any removable storage medium; (c) introduces or causes to be introduced any computer contaminant or computer virus into any computer, computer system or computer network; (d) damages or causes to be damaged any computer, computer system or computer network, data, computer data base or any other programmes residing in such computer, computer system or computer network; (e) disrupts or causes disruption of any computer, computer system or computer network; (f) denies or causes the denial of access to any person authorised to access any computer, computer system or computer network by any means; (g) provides any assistance to any person to facilitate access to a computer, computer system or computer network in contravention of the provisions of this Act, rules or regulations made thereunder; (h) charges the services availed of by a person to the account of another person by tampering with or manipulating any computer, computer system, or computer network; 4 [(i) destroys, deletes or alters any information residing in a computer resource or diminishes its value or utility or affects it injuriously by any means; (j) steal, conceal, destroys or alters or causes any person to steal, conceal, destroy or alter any computer source code used for a computer resource with an intention to cause damage;] 5 [he shall be liable to pay damages by way of compensation to the person so affected.] Explanation.--For the purposes of this section,-- (i) \"computer contaminant\" means any set of computer instructions that are designed-- (a) to modify, destroy, record, transmit data or programme residing within a computer, computer system or computer network; or (b) by any means to usurp the normal operation of the computer, computer system, or computer network; (ii) \"computer data-base\" means a representation of information, knowledge, facts, concepts or instructions in text, image, audio, video that are being prepared or have been prepared in a formalised manner or have been produced by a computer, computer system or computer network and are intended for use in a computer, computer system or computer network; (iii) \"computer virus\" means any computer instruction, information, data or programme that destroys, damages, degrades or adversely affects the performance of a computer resource or attaches itself to another computer resource and operates when a programme, data or instruction is executed or some other event takes place in that computer resource; (iv) \"damage\" means to destroy, alter, delete, add, modify or rearrange any computer resource by any means. 4 [(v) \"computer source code\" means the listing of programme, computer commands, design and layout and programme analysis of computer resource in any form.] 1Subs. by Act 10 of 2009, s. 20, for \"PENALTIES AND ADJUDICATION\" (w.e.f. 27-10-2009). 4 Ins. by Act 10 of 2009, s. 21 (w.e.f. 27-10-2009). 5Subs. by s. 21, ibid., for certain words (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "44",
+    "title": "Section 44.   Penalty for failure to furnish information, return, etc.",
+    "description": "Previous Next If any person who is required under this Act or any rules or regulations made thereunder to-- (a) furnish any document, return or report to the Controller or the Certifying Authority fails to furnish the same, he shall be liable to a penalty not exceeding 1[fifteen lakh] rupees for each such failure; (b) file any return or furnish any information, books or other documents within the time specified therefor in the regulations fails to file return or furnish the same within the time specified therefor in the regulations, he shall be liable to a penalty not exceeding 2[fifty thousand] rupees for every day during which such failure continues; (c) maintain books of account or records, fails to maintain the same, he shall be liable to a penalty not exceeding 3[one lakh] rupees for every day during which the failure continues. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "45",
+    "title": "Section 45.   Residuary penalty.",
+    "description": "Previous Next Whoever contravenes any 1[rules, regulations, directions or orders] made under this Act, for the contravention of which no penalty has been separately provided, shall be liable to pay a 2[penalty not exceeding one lakh rupees, in addition to compensation to the person affected by such contravention not exceeding-- (a) ten lakh rupees, by an intermediary, company or body corporate; or/be (b) one lakh rupees, by any other person.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "47",
+    "title": "Section 47.   Factors to be taken into account by the adjudicating officer.",
+    "description": "Previous Next While adjudging the quantum of compensation under this Chapter, the adjudicating officer shall have due regard to the following factors, namely:-- (a) the amount of gain of unfair advantage, wherever quantifiable, made as a result of the default; (b) the amount of loss caused to any person as a result of the default; (c) the repetitive nature of the default. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "48",
+    "title": "Section 48.   Appellate Tribunal.",
+    "description": "Previous Next 48.2[Appellate Tribunal].-- 3[(1) The Telecom Disputes Settlement and Appellate Tribunal established under section 14 of the Telecom Regulatory Authority of India Act, 1997 (24 of 1997), shall, on and from the commencement of Part XIV of Chapter VI of the Finance Act, 2017 (7 of 2017), be the Appellate Tribunal for the purposes of this Act and the said Appellate Tribunal shall exercise the jurisdiction, powers and authority conferred on it by or under this Act.] (2) The Central Government 4[shall specify, by notification] the matters and places in relation to which the 1[Appellate Tribunal] may exercise jurisdiction. 1 Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "49",
+    "title": "Section 49.   [Omitted.].",
+    "description": "Previous Next 1 [49. [Composition of Cyber Appellate Tribunal.] Omitted by the Finance Act, 2017 (7 of 2017), s. 169 (w.e.f. 26-5-2017).] 1 Subs. by Act 10 of 2009, s. 26, for sections 49 to 52 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "50",
+    "title": "Section 50.   [Omitted.].",
+    "description": "Previous Next 1[50. [Qualifications for appointment as Chairperson and Members of Cyber Appellate Tribunal.]Omitted by s. 169, ibid. (w.e.f. 26-5-2017).] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "51",
+    "title": "Section 51.   [Omitted.].",
+    "description": "Previous Next 1[51. [Term of office, conditions of service, etc., of Chairperson and Members.]Omitted by s. 169, ibid. (w.e.f. 26-5-2017).] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "52B",
+    "title": "Section 52B.   [Omitted.].",
+    "description": "Previous Next 1[52B. [Distribution of business among Benches.]Omitted by s. 169, ibid. (w.e.f. 26-5-2017).] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "52C",
+    "title": "Section 52C.   [Omitted.].",
+    "description": "Previous Next 1[52C. [Power of Chairperson to transfer cases.]Omitted by s. 169, ibid. (w.e.f. 26-5-2017).] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "52D",
+    "title": "Section 52D.   Decision by majority.",
+    "description": "Previous Next If the Members of a Bench consisting of two Members differ in opinion on any point, they shall state the point or points on which they differ, and make a reference to the Chairperson of the 1[Appellate Tribunal] who shall hear the point or points himself and such point or points shall be decided according to the opinion of the majority of the Members who have heard the case, including those who first heard it. 1 Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "53",
+    "title": "Section 53.   [Omitted.].",
+    "description": "Previous Next Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "55",
+    "title": "Section 55.   Orders constituting Appellate Tribunal to be final and not to invalidate its proceedings.",
+    "description": "Previous Next No order of the Central Government appointing any person as the 2 [Chairperson or the Member] of a 1 [Appellate Tribunal] shall be called in question in any manner and no act or proceeding before a 3 [Appellate Tribunal] shall be called in question in any manner on the ground merely of any defect in the constitution of a 3 [Appellate Tribunal]. 1 Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017). 2 Subs. by s. 29, ibid., for \"Presiding Officer\" (w.e.f. 27-10-2009). 3 Subs. by Act 7 of 2017, s, 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "56",
+    "title": "Section 56.   [Omitted.].",
+    "description": "Previous Next Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "57",
+    "title": "Section 57.   Appeal to Appellate Tribunal.",
+    "description": "Previous Next (2) No appeal shall lie to the 1 [Appellate Tribunal] from an order made by an adjudicating officer with the consent of the parties. (3) Every appeal under sub-section (1) shall be filed within a period of forty-five days from the date on which a copy of the order made by the Controller or the adjudicating officer is received by the person aggrieved and it shall be in such form and be accompanied by such fee as may be prescribed: Provided that the 1 [Appellate Tribunal] may entertain an appeal after the expiry of the said period of forty-five days if it is satisfied that there was sufficient cause for not filing it within that period. (4) On receipt of an appeal under sub-section (1), the 1 [Appellate Tribunal] may, after giving the parties to the appeal, an opportunity of being heard, pass such orders thereon as it thinks fit, confirming, modifying or setting aside the order appealed against. (5) The 1 Appellate Tribunal shall send a copy of every order made by it to the parties to the appeal and to the concerned Controller or adjudicating officer. (6) The appeal filed before the 1 [Appellate Tribunal] under sub-section (1) shall be dealt with by it as expeditiously as possible and endeavour shall be made by it to dispose of the appeal finally within six months from the date of receipt of the appeal. 1Subs. by Act 7 of 2017, s, 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "59",
+    "title": "Section 59.   Right to legal representation.",
+    "description": "Previous Next The appellant may either appear in person or authorise one or more legal practitioners or any of its officers to present his or its case before the 1 [Appellate Tribunal]. 1Subs. by Act 7 of 2017, s, 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "60",
+    "title": "Section 60.   Limitation.",
+    "description": "Previous Next The provisions of the Limitation Act, 1963 (36 of 1963), shall, as far as may be, apply to an appeal made to the 1 [Appellate Tribunal]. 1Subs. by Act 7 of 2017, s, 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "61",
+    "title": "Section 61.   Civil court not to have jurisdiction.",
+    "description": "Previous Next No court shall have jurisdiction to entertain any suit or proceeding in respect of any matter which an adjudicating officer appointed under this Act or the 1 [Appellate Tribunal] constituted under this Act is empowered by or under this Act to determine and no injunction shall be granted by any court or other authority in respect of any action taken or to be taken in pursuance of any power conferred by or under this Act. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "62",
+    "title": "Section 62.   Appeal to High Court.",
+    "description": "Previous Next Any person aggrieved by any decision or order of the 60 Appellate Tribunal may file an appeal to the High Court within sixty days from the date of communication of the decision or order of the 1 [Appellate Tribunal] to him on any question of fact or law arising out of such order: Provided that the High Court may, if it is satisfied that the appellant was prevented by sufficient cause from filing the appeal within the said period, allow it to be filed within a further period not exceeding sixty days. 1 Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "64",
+    "title": "Section 64.   Recovery of penalty or compensation.",
+    "description": "Previous Next 1Subs. by Act 10 of 2009, s. 31, for \"penalty\" (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "65",
+    "title": "Section 65.   Tampering with computer source documents.",
+    "description": "Previous Next Whoever knowingly or intentionally conceals, destroys or alters or intentionally or knowingly causes another to conceal, destroy, or alter any computer source code used for a computer, computer programme, computer system or computer network, when the computer source code is required to be kept or maintained by law for the time being in force, shall be punishable with imprisonment up to three years, or with fine which may extend up to two lakh rupees, or with both. Explanation.--For the purposes of this section, 'computer source code\" means the listing of programmes, computer commands, design and layout and programme analysis of computer resource in any form Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "66",
+    "title": "Section 66.   Computer related offences.",
+    "description": "Previous Next 1 [66. Computer related offences.-- If any person, dishonestly or fraudulently, does any act referred to in section 43, he shall be punishable with imprisonment for a term which may extend to three years or with fine which may extend to five lakh rupees or with both. Explanation.--For the purposes of this section,-- (a) the word \"dishonestly\" shall have the meaning assigned to it in section 24 of the Indian Penal Code (45 of 1860); (b) the word \"fraudulently\" shall have the meaning assigned to it in section 25 of the Indian Penal Code (45 of 1860).] 1 Subs. by s. 32, ibid., for sections 66 and 67 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "66A",
+    "title": "Section 66A.   Omitted.",
+    "description": "Previous Next 1 [66A. Punishment for sending offensive messages through communication service, etc.--Any person who sends, by means of a computer resource or a communication device, (a) any information that is grossly offensive or has menacing character; or (b) any information which he knows to be false, but for the purpose of causing annoyance, inconvenience, danger, obstruction, insult, injury, criminal intimidation, enmity, hatred or ill will, persistently by making use of such computer resource or a communication device; (c) any electronic mail or electronic mail message for the purpose of causing annoyance or inconvenience or to deceive or to mislead the addressee or recipient about the origin of such messages, shall be punishable with imprisonment for a term which may extend to three years and with fine. Explanation.--For the purposes of this section, terms \"electronic mail\" and \"electronic mail message\" means a message or information created or transmitted or received on a computer, computer system, computer resource or communication device including attachments in text, image, audio, video and any other electronic record, which may be transmitted with the message.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "66B",
+    "title": "Section 66B.   Punishment for dishonestly receiving stolen computer resource or communication device.",
+    "description": "Previous Next Whoever dishonestly receive or retains any stolen computer resource or communication device knowing or having reason to believe the same to be stolen computer resource or communication device, shall be punished with imprisonment of either description for a term which may extend to three years or with fine which may extend to rupees one lakh or with both. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "66C",
+    "title": "Section 66C.   Punishment for identity theft.",
+    "description": "Previous Next Whoever, fraudulently or dishonestly make use of the electronic signature, password or any other unique identification feature of any other person, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to rupees one lakh. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "66D",
+    "title": "Section 66D.   Punishment for cheating by personation by using computer resource.",
+    "description": "Previous Next Whoever, by means of any communication device or computer resource cheats by personation, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to one lakh rupees. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "66E",
+    "title": "Section 66E.   Punishment for violation of privacy.",
+    "description": "Previous Next Whoever, intentionally or knowingly captures, publishes or transmits the image of a private area of any person without his or her consent, under circumstances violating the privacy of that person, shall be punished with imprisonment which may extend to three years or with fine not exceeding two lakh rupees, or with both. Explanation.--For the purposes of this section-- (a) transmit means to electronically send a visual image with the intent that it be viewed by a person or persons; (b) capture, with respect to an image, means to videotape, photograph, film or record by any means; (c) private area means the naked or undergarment clad genitals, *[pubic area], buttocks or female breast: (d) publishes means reproduction in the printed or electronic form and making it available for public; (e) under circumstances violating privacy means circumstances in which a person can have a reasonable expectation that-- (i) he or she could disrobe in privacy, without being concerned that an image of his private area was being captured; or (ii) any part of his or her private area would not be visible to the public, regardless of whether that person is in a public or private place. *. By Corrigenda in Gazette of India, Extraordinary, Part II, Section I, dated 5-2-2009. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "66F",
+    "title": "Section 66F.   Punishment for cyber terrorism.",
+    "description": "Previous Next (1) Whoever,-- (A) with intent to threaten the unity, integrity, security or sovereignty of India or to strike terror in the people or any section of the people by-- (i) denying or cause the denial of access to any person authorised to access computer resource; or (ii) attempting to penetrate or access a computer resource without authorisation or exceeding authorised access; or (iii) introducing or causing to introduce any computer contaminant, and by means of such conduct causes or is likely to cause death or injuries to persons or damage to or destruction of property or disrupts or knowing that it is likely to cause damage or disruption of supplies or services essential to the life of the community or adversely affect the critical information infrastructure specified under section 70; or (B) knowingly or intentionally penetrates or accesses a computer resource without authorisation or exceeding authorised access, and by means of such conduct obtains access to information, data or computer data base that is restricted for reasons of the security of the State or foreign relations; or any restricted information, data or computer data base, with reasons to believe that such information, data or computer data base so obtained may be used to cause or likely to cause injury to the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation or incitement to an offence, or to the advantage of any foreign nation, group of individuals or otherwise, commits the offence of cyber terrorism. (2) Whoever commits or conspires to commit cyber terrorism shall be punishable with imprisonment which may extend to imprisonment for life Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "67A",
+    "title": "Section 67A.   Punishment for publishing or transmitting of material containing sexually explicit act, etc., in electronic form.",
+    "description": "Previous Next Whoever publishes or transmits or causes to be published or transmitted in the electronic form any material which contains sexually explicit act or conduct shall be punished on first conviction with imprisonment of either description for a term which may extend to five years and with fine which may extend to ten lakh rupees and in the event of second or subsequent conviction with imprisonment of either description for a term which may extend to seven years and also with fine which may extend to ten lakh rupees. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "67B",
+    "title": "Section 67B.   Punishment for publishing or transmitting of material depicting children in sexually explicit act, etc., in electronic form.",
+    "description": "Previous Next Whoever,-- (a) publishes or transmits or causes to be published or transmitted material in any electronic form which depicts children engaged in sexually explicit act or conduct; or (b) creates text or digital images, collects, seeks, browses, downloads, advertises, promotes, exchanges or distributes material in any electronic form depicting children in obscene or indecent or sexually explicit manner; or (c) cultivates, entices or induces children to online relationship with one or more children for and on sexually explicit act or in a manner that may offend a reasonable adult on the computer resource; or (d) facilitates abusing children online, or (e) records in any electronic form own abuse or that of others pertaining to sexually explicit act with children, shall be punished on first conviction with imprisonment of either description for a term which may extend to five years and with fine which may extend to ten lakh rupees and in the event of second or subsequent conviction with imprisonment of either description for a term which may extend to seven years and also with fine which may extend to ten lakh rupees: Provided that provisions of section 67, section 67A and this section does not extend to any book, pamphlet, paper, writing, drawing, painting representation or figure in electronic form-- (i) the publication of which is proved to be justified as being for the public good on the ground that such book, pamphlet, paper, writing, drawing, painting representation or figure is the interest of science, literature, art or learning or other objects of general concern; or (ii) which is kept or used for bona fide heritage or religious purposes. Explanation--For the purposes of this section, \"children\" means a person who has not completed the age of 18 years. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "68",
+    "title": "Section 68.   Power of Controller to give directions.",
+    "description": "Previous Next (1) The Controller may, by order, direct a Certifying Authority or any employee of such Authority to take such measures or cease carrying on such activities as specified in the order if those are necessary to ensure compliance with the provisions of this Act, rules or any regulations made thereunder. 1 [(2) Any person who intentionally or knowingly fails to comply with any order under sub-section (1) shall be guilty of an offence and shall be liable on conviction to imprisonment for a term not exceeding two years or a fine not exceeding one lakh rupees or with both.] 1 Subs. by Act 10 of 2009, s. 33, for sub-section (2) (w.e.f. 27-10-2009) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "71",
+    "title": "Section 71.   Penalty for misrepresentation.",
+    "description": "Previous Next Whoever makes any misrepresentation to, or suppresses any material fact from the Controller or the Certifying Authority for obtaining any licence or 1 [electronic signature Certificate], as the case may be, shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to one lakh rupees, or with both. 1Subs. by Act 10 of 2009, s. 2, for \"Digital Signature\" (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "72",
+    "title": "Section 72.   Penalty for Breach of confidentiality and privacy.",
+    "description": "Previous Next Save as otherwise provided in this Act or any other law for the time being in force, if any person who, in pursuance of any of the powers conferred under this Act, rules or regulations made thereunder, has secured access to any electronic record, book, register, correspondence, information, document or other material without the consent of the person concerned discloses such electronic record, book, register, correspondence, information, document or other material to any other person shall be 1[liable to penalty which may extend to five lakh rupees[. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "72A",
+    "title": "Section 72A.   Punishment for disclosure of information in breach of lawful contract.",
+    "description": "Previous Next 1[72A. 2[Penalty] for disclosure of information in breach of lawful contract.---Save as otherwise provided in this Act or any other law for the time being in force, any person including an intermediary who, while providing services under the terms of lawful contract, has secured access to any material containing personal information about another person, with the intent to cause or knowing that he is likely to cause wrongful loss or wrongful gain discloses, without the consent of the person concerned, or in breach of a lawful contract, such material to any other person, shall be 3[liable to penalty which may extend to twenty-five lakh rupees].] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "73",
+    "title": "Section 73.   Penalty for publishing electronic signature Certificate false in certain particulars.",
+    "description": "Previous Next (a) the Certifying Authority listed in the certificate has not issued it; or (b) the subscriber listed in the certificate has not accepted it; or (c) the certificate has been revoked or suspended, unless such publication is for the purpose of verifying a 1[electronic signature] created prior to such suspension or revocation. (2) Any person who contravenes the provisions of sub-section (1) shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to one lakh rupees, or with both. 1.Subs. by Act 10 of 2009, s. 38, for section 77 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "74",
+    "title": "Section 74.   Publication for fraudulent purpose.",
+    "description": "Previous Next Whoever knowingly creates, publishes or otherwise makes available a 1 [electronic signature] Certificate for any fraudulent or unlawful purpose shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to one lakh rupees, or with both. 1Subs. by Act 10 of 2009, s. 38, for section 77 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "75",
+    "title": "Section 75.   Act to apply for offence or contravention committed outside India.",
+    "description": "Previous Next (1) Subject to the provisions of sub-section (2), the provisions of this Act shall apply also to any offence or contravention committed outside India by any person irrespective of his nationality. (2) For the purposes of sub-section (1), this Act shall apply to an offence or contravention committed outside India by any person if the act or conduct constituting the offence or contravention involves a computer, computer system or computer network located in India. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "76",
+    "title": "Section 76.   Confiscation.",
+    "description": "Previous Next Any computer, computer system, floppies, compact disks, tape drives or any other accessories related thereto, in respect of which any provision of this Act, rules, orders or regulations made thereunder has been or is being contravened, shall be liable to confiscation: Provided that where it is established to the satisfaction of the court adjudicating the confiscation that the person in whose possession, power or control of any such computer, computer system, floppies, compact disks, tape drives or any other accessories relating thereto is found is not responsible for the contravention of the provisions of this Act, rules, orders or regulations made thereunder, the court may, instead of making an order for confiscation of such computer, computer system, floppies, compact disks, tape drives or any other accessories related thereto, make such other order authorised by this Act against the person contravening of the provisions of this Act, rules, orders or regulations made thereunder as it may think fit. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "77",
+    "title": "Section 77.   Compensation, penalties or confiscation not to interfere with other punishment.",
+    "description": "Previous Next 1 [77. Compensation, penalties or confiscation not to interfere with other punishment.--No compensation awarded, penalty imposed or confiscation made under this Act shall prevent the award of compensation or imposition of any other penalty or punishment under any other law for the time being in force.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "77A",
+    "title": "Section 77A.   Compounding of offences.",
+    "description": "Previous Next 1[77A. Compounding of offences.--A court of competent jurisdiction may compound offences, other than offences for which the punishment for life or imprisonment for a term exceeding three years has been provided, under this Act: Provided that the court shall not compound such offence where the accused is, by reason of his previous conviction, liable to either enhanced punishment or to a punishment of a different kind: Provided further that the court shall not compound any offence where such offence affects the socio economic conditions of the country or has been committed against a child below the age of 18 years or a woman. (2) The person accused of an offence under this Act may file an application for compounding in the court in which offence is pending for trial and the provisions of sections 265B and 265C of the Code of Criminal Procedure, 1973 (2 of 1974) shall apply.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "77B",
+    "title": "Section 77B.   Offences with three years imprisonment to be bailable.",
+    "description": "Previous Next 1[77B. Offences with three years imprisonment to be bailable.--Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), the offence punishable with imprisonment of three years and above shall be cognizable and the offence punishable with imprisonment of three years shall be bailable. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "78",
+    "title": "Section 78.   Power to investigate offences.",
+    "description": "Previous Next Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), a police officer not below the rank of 1 [Inspector] shall investigate any offence under this Act. 1 Subs. by Act 10 of 2009, s. 39, for \"Deputy Superintendent of Police\" (w.e.f. 27-10-2009) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "80",
+    "title": "Section 80.   Power of police officer and other officers to enter, search, etc.",
+    "description": "Previous Next (1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), any police officer, not below the rank of a 1 [Inspector], or any other officer of the Central Government or a State Government authorised by the Central Government in this behalf may enter any public place and search and arrest without warrant any person found therein who is reasonably suspected of having committed or of committing or of being about to commit any offence under this Act. Explanation. -- For the purposes of this sub-section, the expression \"public place\" includes any public conveyance, any hotel, any shop or any other place intended for use by, or accessible to the public. (2) Where any person is arrested under sub-section (1) by an officer other than a police officer, such officer shall, without unnecessary delay, take or send the person arrested before a magistrate having jurisdiction in the case or before the officer-in-charge of a police station. (3) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974) shall, subject to the provisions of this section, apply, so far as may be, in relation to any entry, search or arrest, made under this section. 1 Subs. by Act 10 of 2009, s. 41, for \"Deputy Superintendent of Police\" (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "81",
+    "title": "Section 81.   Act to have overriding effect.",
+    "description": "Previous Next The provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for the time being in force. 1 [Provided that nothing contained in this Act shall restrict any person from exercising any right conferred under the Copyright Act, 1957 (14 of 1957) or the Patents Act, 1970 (39 of 1970).] 1Ins. by s. 42, ibid. (w.e.f. 27-10-2009) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "81A",
+    "title": "Section 81A.   Application of the Act to electronic cheque and truncated cheque.",
+    "description": "Previous Next 1 [81A. Application of the Act to electronic cheque and truncated cheque.--(1) The provisions of this Act, for the time being in force, shall apply to, or in relation to, electronic cheques and the truncated cheques subject to such modifications and amendments as may be necessary for carrying out the purposes of the Negotiable Instruments Act, 1881 (26 of 1881) by the Central Government, in consultation with the Reserve Bank of India, by notification in the Official Gazette. (2) Every notification made by the Central Government under sub-section (1) shall be laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the notification or both Houses agree that the notification should not be made, the notification shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that notification. Explanation.-- For the purposes of this Act, the expressions \"electronic cheque\" and \"truncated cheque\" shall have the same meaning as assigned to them in section 6 of the Negotiable Instruments Act, 1881 (26 of 1881).] 1 Ins. by Act 55 of 2002, s. 13 (w.e.f. 26-2-2003). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "82",
+    "title": "Section 82.   Controller, Deputy Controller and Assistant Controller to be public servants.",
+    "description": "Previous Next 1 [82. Controller, Deputy Controller and Assistant Controller to be public servants.-- The Controller, the Deputy Controller and the Assistant Controllers shall be deemed to be public servants within the meaning of section 21 of the Indian Penal Code (45 of 1860).] 1 Subs. by 7 of 2017, s. 169, for section 82 (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "83",
+    "title": "Section 83.   Power to give directions.",
+    "description": "Previous Next The Central Government may give directions to any State Government as to the carrying into execution in the State of any of the provisions of this Act or of any rule, regulation or order made thereunder. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "84",
+    "title": "Section 84.   Protection of action taken in good faith.",
+    "description": "Previous Next No suit, prosecution or other legal proceeding shall lie against the Central Government, the State Government, the Controller or any person acting on behalf of him, 1[]and adjudicating officer] for anything which is in good faith done or intended to be done in pursuance of this Act or any rule, regulation or order made thereunder. 1 Subs. by s. 169, ibid., for \"the Chairperson Members, adjudicating officers and the staff of the Cyber Appellate Tribunal\" (w.e.f. 26-5-2017) Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "84A",
+    "title": "Section 84A.   Modes or methods for encryption.",
+    "description": "Previous Next 1 [84A. Modes or methods for encryption.--The Central Government may, for secure use of the electronic medium and for promotion of e-governance and e-commerce, prescribe the modes or methods for encryption.] 1 Ins. by 10 of 2009, s. 45 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "84B",
+    "title": "Section 84B.   Punishment for abetment of offences.",
+    "description": "Previous Next 1[84B. Punishment for abetment of offences.--Whoever abets any offence shall, if the act abetted is committed in consequence of the abetment, and no express provision is made by this Act for the punishment of such abetment, be punished with the punishment provided for the offence under this Act. Explanation.--An act or offence is said to be committed in consequence of abetment, when it is committed in consequence of the instigation, or in pursuance of the conspiracy, or with the aid which constitutes the abetment.] 1 Ins. by 10 of 2009, s. 45 (w.e.f. 27-10-2009). Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "84C",
+    "title": "Section 84C.   Punishment for attempt to commit offences.",
+    "description": "Previous Next 1[84C. Punishment for attempt to commit offences.--Whoever attempts to commit an offence punishable by this Act or causes such an offence to be committed, and in such an attempt does any act towards the commission of the offence, shall, where no express provision is made for the punishment of such attempt, be punished with imprisonment of any description provided for the offence, for a term which may extend to one-half of the longest term of imprisonment provided for that offence, or with such fine as is provided for the offence, or with both.] Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "85",
+    "title": "Section 85.   Offences by companies.",
+    "description": "Previous Next (1) Where a person committing a contravention of any of the provisions of this Act or of any rule, direction or order made thereunder is a company, every person who, at the time the contravention was committed, was in charge of, and was responsible to, the company for the conduct of business of the company as well as the company, shall be guilty of the contravention and shall be liable to be proceeded against and punished accordingly: Provided that nothing contained in this sub-section shall render any such person liable to punishment if he proves that the contravention took place without his knowledge or that he exercised all due diligence to prevent such contravention. (2) Notwithstanding anything contained in sub-section (1), where a contravention of any of the provisions of this Act or of any rule, direction or order made thereunder has been committed by a company and it is proved that the contravention has taken place with the consent or connivance of, or is attributable to any neglect on the part of, any director, manager, secretary or other officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty of the contravention and shall be liable to be proceeded against and punished accordingly. Explanation.--For the purposes of this section,-- (i) 'company\" means any body corporate and includes a firm or other association of individuals; and (ii) \"director\", in relation to a firm, means a partner in the firm. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "90",
+    "title": "Section 90.   Power of State Government to make rules.",
+    "description": "Previous Next (1) The State Government may, by notification in the Official Gazette, make rules to carry out the provisions of this Act. (2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide for all or any of the following matters, namely:-- (a) the electronic form in which filing, issue, grant, receipt or payment shall be effected under sub-section (1) of section 6; (b) for matters specified in sub-section (2) of section 6; 1* * * * * (3) Every rule made by the State Government under this section shall be laid, as soon as may be after it is made, before each House of the State Legislature where it consists of two Houses, or where such Legislature consists of one House, before that House. Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "91",
+    "title": "Section 91.   [Omitted.].",
+    "description": "Previous Next Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "92",
+    "title": "Section 92.   [Omitted.].",
+    "description": "Previous Next Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "93",
+    "title": "Section 93.   [Omitted.].",
+    "description": "Previous Next Previous Next"
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section_number": "94",
+    "title": "Section 94.   [Omitted.].",
+    "description": "Previous Next Previous Next"
+  }
+]

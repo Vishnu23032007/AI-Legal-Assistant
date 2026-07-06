@@ -1,0 +1,639 @@
+/* ============================================
+   LAW SAKTHI — Forest Ink Theme
+   Deep green · Ivory · Copper accents
+   "Old Law Library" — refined & authoritative
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+:root {
+  /* Core palette */
+  --forest:        #1c3a2e;
+  --forest-mid:    #254d3c;
+  --forest-light:  #2e6049;
+  --copper:        #b5601a;
+  --copper-light:  #d4762a;
+  --copper-pale:   rgba(181, 96, 26, 0.1);
+  --copper-border: rgba(181, 96, 26, 0.28);
+
+  /* Backgrounds */
+  --bg:            #f2ede4;
+  --bg-parchment:  #ede7da;
+  --bg-white:      #faf7f2;
+  --bg-card:       #faf7f2;
+
+  /* Text */
+  --text-dark:     #1c2b1f;
+  --text-body:     #374a3c;
+  --text-muted:    #6b7f72;
+  --text-faint:    #a8b8ad;
+
+  /* Borders */
+  --border:        #d9d0c2;
+  --border-hover:  rgba(181, 96, 26, 0.5);
+
+  /* Shadows */
+  --shadow-sm:     0 2px 8px rgba(28, 58, 46, 0.07);
+  --shadow-md:     0 8px 32px rgba(28, 58, 46, 0.11);
+  --shadow-lg:     0 20px 60px rgba(28, 58, 46, 0.16);
+  --shadow-copper: 0 8px 30px rgba(181, 96, 26, 0.18);
+
+  /* Shape */
+  --radius:        16px;
+  --radius-sm:     10px;
+}
+
+/* ============================================
+   RESET
+   ============================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--text-dark);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================
+   LAYOUT — DASHBOARD CONTAINER
+   ============================================ */
+.dashboard-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 52px 24px 64px;
+  overflow: hidden;
+}
+
+/* Parchment vignette */
+.dashboard-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 75% 55% at 50% 0%,   rgba(28, 58, 46, 0.08) 0%, transparent 65%),
+    radial-gradient(ellipse 55% 45% at 100% 100%, rgba(181, 96, 26, 0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 40% at 0%   65%,  rgba(28, 58, 46, 0.04) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Fine linen texture grid */
+.dashboard-container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 27px,
+      rgba(28, 58, 46, 0.035) 27px,
+      rgba(28, 58, 46, 0.035) 28px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 27px,
+      rgba(28, 58, 46, 0.025) 27px,
+      rgba(28, 58, 46, 0.025) 28px
+    );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dashboard-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   BADGE
+   ============================================ */
+.dashboard-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 20px;
+  background: var(--bg-white);
+  border: 1px solid var(--copper-border);
+  border-radius: 100px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin-bottom: 34px;
+  box-shadow: var(--shadow-sm), 0 0 0 4px rgba(181, 96, 26, 0.05);
+
+  /* Ink drop reveal */
+  animation: inkDrop 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.dashboard-badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: var(--copper-light);
+  border-radius: 50%;
+  flex-shrink: 0;
+  animation: breathe 3s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1);   opacity: 1;   box-shadow: 0 0 0 0   rgba(181, 96, 26, 0.5); }
+  50%       { transform: scale(1.3); opacity: 0.8; box-shadow: 0 0 0 5px rgba(181, 96, 26, 0); }
+}
+
+/* ============================================
+   TITLE
+   ============================================ */
+.dashboard-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: clamp(54px, 11vw, 98px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 0.92;
+  color: var(--forest);
+  text-align: center;
+  margin-bottom: 22px;
+
+  /* Slide-in from left like a stamp */
+  animation: stampIn 0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
+}
+
+.highlight {
+  background: linear-gradient(
+    120deg,
+    var(--copper)       0%,
+    var(--copper-light) 40%,
+    #e08030            65%,
+    var(--copper)      100%
+  );
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+  position: relative;
+  animation: bronzeFlow 6s linear infinite;
+}
+
+/* Engraved underline */
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--copper) 20%,
+    var(--copper-light) 50%,
+    var(--copper) 80%,
+    transparent 100%
+  );
+  background-size: 220% auto;
+  border-radius: 1px;
+  animation: bronzeFlow 6s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes bronzeFlow {
+  0%   { background-position: 0%   center; }
+  100% { background-position: 220% center; }
+}
+
+/* ============================================
+   SUBTITLE
+   ============================================ */
+.dashboard-subtitle {
+  font-size: 15.5px;
+  font-weight: 300;
+  color: var(--text-body);
+  text-align: center;
+  max-width: 400px;
+  line-height: 1.8;
+  margin-bottom: 52px;
+  font-style: italic;
+  animation: fadeRise 0.7s ease 0.25s both;
+}
+
+/* ============================================
+   BUTTON CONTAINER
+   ============================================ */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 500px;
+  animation: fadeRise 0.7s ease 0.35s both;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+.dashboard-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+
+  transition:
+    transform      0.3s  cubic-bezier(0.34, 1.56, 0.64, 1),
+    border-color   0.25s ease,
+    box-shadow     0.3s  ease,
+    background     0.25s ease;
+}
+
+/* Diagonal wipe on hover */
+.dashboard-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -75%;
+  width: 55%;
+  height: 200%;
+  background: linear-gradient(
+    105deg,
+    transparent,
+    rgba(28, 58, 46, 0.04),
+    rgba(181, 96, 26, 0.05),
+    transparent
+  );
+  transform: skewX(-10deg);
+  transition: left 0.6s ease;
+  pointer-events: none;
+}
+
+/* Forest left bar */
+.dashboard-button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  bottom: 14px;
+  width: 3px;
+  background: linear-gradient(180deg, var(--forest-light), var(--forest));
+  border-radius: 0 3px 3px 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.dashboard-button:hover {
+  transform: translateY(-4px) scale(1.005);
+  border-color: var(--border-hover);
+  background: var(--bg-white);
+  box-shadow: var(--shadow-lg), var(--shadow-copper);
+}
+
+.dashboard-button:hover::before { left: 130%; }
+.dashboard-button:hover::after  { transform: scaleY(1); }
+
+.dashboard-button:active {
+  transform: translateY(-1px) scale(1);
+  transition-duration: 0.1s;
+}
+
+/* ---- Icon ---- */
+.btn-icon {
+  font-size: 24px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: rgba(28, 58, 46, 0.07);
+  border: 1px solid rgba(28, 58, 46, 0.15);
+  border-radius: var(--radius-sm);
+  transition:
+    transform   0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+    background  0.25s ease,
+    border-color 0.25s ease;
+}
+
+.dashboard-button:hover .btn-icon {
+  transform: scale(1.14) rotate(-7deg);
+  background: rgba(28, 58, 46, 0.13);
+  border-color: rgba(28, 58, 46, 0.28);
+}
+
+/* ---- Text ---- */
+.btn-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.btn-label {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: var(--forest);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  transition: color 0.2s ease;
+}
+
+.dashboard-button:hover .btn-label {
+  color: var(--copper);
+}
+
+.btn-desc {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  font-weight: 400;
+  line-height: 1.45;
+  transition: color 0.2s ease;
+}
+
+.dashboard-button:hover .btn-desc {
+  color: var(--text-body);
+}
+
+/* ---- Arrow ---- */
+.btn-arrow {
+  font-size: 18px;
+  color: var(--text-faint);
+  flex-shrink: 0;
+  transition:
+    transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+    color     0.25s ease;
+}
+
+.dashboard-button:hover .btn-arrow {
+  transform: translateX(6px);
+  color: var(--copper);
+}
+
+.btn-complaint {
+  /* Inherits all base styles */
+}
+
+.btn-judgment {
+  /* Inherits all base styles */
+}
+
+.btn-advocates {
+  /* Inherits all base styles */
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.dashboard-footer {
+  margin-top: 50px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-faint);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  animation: fadeRise 0.7s ease 0.45s both;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logout-footer-btn {
+  margin: 1rem auto 0;
+  display: block;
+  padding: 0.6rem 1.5rem;
+  background: rgba(181, 96, 26, 0.1);
+  border: 1px solid var(--copper-border);
+  color: var(--copper);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.logout-footer-btn:hover {
+  background: var(--copper);
+  color: white;
+}
+
+.dashboard-footer::before,
+.dashboard-footer::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 1px;
+}
+
+.dashboard-footer::before {
+  background: linear-gradient(90deg, transparent, var(--border));
+}
+
+.dashboard-footer::after {
+  background: linear-gradient(270deg, transparent, var(--border));
+}
+
+/* ============================================
+   DECORATIVE SCALES
+   ============================================ */
+.deco-scales {
+  position: absolute;
+  bottom: -30px;
+  right: -20px;
+  font-size: 300px;
+  opacity: 0.022;
+  pointer-events: none;
+  user-select: none;
+  filter: sepia(1) saturate(0.3);
+  z-index: 0;
+  animation: anchorFloat 12s ease-in-out infinite;
+}
+
+@keyframes anchorFloat {
+  0%, 100% { transform: translateY(0)    rotate(-6deg) scale(1); }
+  33%       { transform: translateY(-14px) rotate(-4deg) scale(1.01); }
+  66%       { transform: translateY(-8px)  rotate(-7deg) scale(0.99); }
+}
+
+/* ============================================
+   KEYFRAME ANIMATIONS
+   ============================================ */
+
+/* Badge drops like an ink blot */
+@keyframes inkDrop {
+  0%   { opacity: 0; transform: scale(0.75) translateY(-10px); filter: blur(4px); }
+  60%  { opacity: 1; transform: scale(1.04) translateY(2px);   filter: blur(0); }
+  100% { opacity: 1; transform: scale(1)    translateY(0);      filter: blur(0); }
+}
+
+/* Title slides in like a press stamp */
+@keyframes stampIn {
+  0%   { opacity: 0; transform: translateX(-32px) skewX(4deg); }
+  70%  { opacity: 1; transform: translateX(4px)   skewX(-1deg); }
+  100% { opacity: 1; transform: translateX(0)     skewX(0deg); }
+}
+
+/* Gentle rise for subtitle, buttons, footer */
+@keyframes fadeRise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================
+   RESPONSIVE — TABLET (≤ 768px)
+   ============================================ */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 48px 20px 52px;
+    justify-content: flex-start;
+  }
+
+  .dashboard-title {
+    font-size: clamp(46px, 13vw, 68px);
+    margin-bottom: 18px;
+  }
+
+  .dashboard-subtitle {
+    font-size: 15px;
+    margin-bottom: 40px;
+    max-width: 340px;
+  }
+
+  .button-container {
+    max-width: 100%;
+  }
+
+  .dashboard-button {
+    padding: 18px 20px;
+    gap: 14px;
+  }
+
+  .btn-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 21px;
+  }
+
+  .btn-label { font-size: 15.5px; }
+  .btn-desc  { font-size: 12px; }
+
+  .deco-scales {
+    font-size: 200px;
+    right: -20px;
+    bottom: 0;
+  }
+}
+
+/* ============================================
+   RESPONSIVE — MOBILE (≤ 480px)
+   ============================================ */
+@media (max-width: 480px) {
+  .dashboard-container {
+    padding: 36px 16px 48px;
+  }
+
+  .dashboard-badge {
+    font-size: 9.5px;
+    padding: 6px 14px;
+    margin-bottom: 22px;
+    letter-spacing: 0.13em;
+  }
+
+  .dashboard-title {
+    font-size: clamp(40px, 14.5vw, 58px);
+    margin-bottom: 14px;
+    letter-spacing: -0.03em;
+  }
+
+  .dashboard-subtitle {
+    font-size: 14px;
+    margin-bottom: 34px;
+    line-height: 1.7;
+  }
+
+  .dashboard-button {
+    padding: 15px 16px;
+    gap: 12px;
+    border-radius: 13px;
+  }
+
+  .btn-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 19px;
+    border-radius: 9px;
+  }
+
+  .btn-label  { font-size: 15px; }
+  .btn-desc   { font-size: 11.5px; }
+  .btn-arrow  { font-size: 15px; }
+
+  .dashboard-footer {
+    font-size: 10px;
+    gap: 10px;
+    margin-top: 36px;
+  }
+
+  .dashboard-footer::before,
+  .dashboard-footer::after {
+    width: 30px;
+  }
+
+  .deco-scales { display: none; }
+}
+
+/* ============================================
+   RESPONSIVE — LARGE DESKTOP (≥ 1400px)
+   ============================================ */
+@media (min-width: 1400px) {
+  .dashboard-container {
+    padding: 64px 32px 80px;
+  }
+
+  .button-container {
+    max-width: 560px;
+  }
+
+  .dashboard-subtitle {
+    font-size: 17px;
+    max-width: 460px;
+  }
+
+  .dashboard-button {
+    padding: 24px 28px;
+    gap: 18px;
+  }
+
+  .btn-icon {
+    width: 58px;
+    height: 58px;
+    font-size: 27px;
+  }
+
+  .btn-label { font-size: 18.5px; }
+  .btn-desc  { font-size: 13.5px; }
+}

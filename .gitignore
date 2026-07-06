@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.cache
+.ipython
+.pytest_cache/
+.mypy_cache/
+
+# Node/Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Huge model and data files (over GitHub's 100MB limit)
+judge/judgments_final.csv
+judge/retrieval_tfidf_matrix.npz
+Legal_AI_System/Models/
+
+# IDEs and OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

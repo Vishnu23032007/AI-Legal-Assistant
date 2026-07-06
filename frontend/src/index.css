@@ -1,0 +1,300 @@
+/* ============================================
+   ROOT APP — Responsive Base Styles
+   Supports mobile, tablet, and desktop
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ---- CSS Reset & Base ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f3ee;
+  color: #1a2744;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   ROOT CONTAINER
+   ============================================ */
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* ============================================
+   LOGO
+   ============================================ */
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms ease, transform 300ms ease;
+  display: inline-block;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #b8882aaa);
+  transform: scale(1.05);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+  transform: scale(1.05);
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* ============================================
+   CARD
+   ============================================ */
+
+.card {
+  padding: 2em;
+  background: #ffffff;
+  border: 1px solid #e4ddd1;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(26, 39, 68, 0.08);
+  margin: 1rem auto;
+  max-width: 640px;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 12px 40px rgba(26, 39, 68, 0.13);
+  transform: translateY(-2px);
+}
+
+/* ============================================
+   READ THE DOCS
+   ============================================ */
+
+.read-the-docs {
+  color: #7a8ba8;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-top: 1rem;
+}
+
+/* ============================================
+   TYPOGRAPHY UTILITIES
+   ============================================ */
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #1a2744;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: #1a2744;
+}
+
+h3 {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 600;
+  color: #1a2744;
+}
+
+p {
+  font-size: clamp(14px, 1.5vw, 16px);
+  line-height: 1.7;
+  color: #3d4f6e;
+}
+
+a {
+  color: #b8882a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+a:hover {
+  color: #d4a843;
+  opacity: 0.9;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #e4ddd1;
+  padding: 10px 22px;
+  cursor: pointer;
+  background: #ffffff;
+  color: #1a2744;
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #faf8f4;
+  border-color: rgba(184, 136, 42, 0.4);
+  box-shadow: 0 4px 16px rgba(184, 136, 42, 0.12);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* ============================================
+   LAYOUT UTILITIES
+   ============================================ */
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-sm  { gap: 8px; }
+.gap-md  { gap: 16px; }
+.gap-lg  { gap: 24px; }
+
+.mt-sm { margin-top: 8px; }
+.mt-md { margin-top: 16px; }
+.mt-lg { margin-top: 32px; }
+
+/* ============================================
+   RESPONSIVE — TABLET (≤ 768px)
+   ============================================ */
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1.25rem;
+    max-width: 100%;
+  }
+
+  .logo {
+    height: 4.5em;
+    padding: 1em;
+  }
+
+  .card {
+    padding: 1.5em;
+    border-radius: 14px;
+    margin: 0.75rem auto;
+  }
+
+  h1 { font-size: clamp(1.75rem, 7vw, 2.5rem); }
+  h2 { font-size: clamp(1.3rem, 5vw, 2rem); }
+  p  { font-size: 15px; }
+
+  button {
+    font-size: 14px;
+    padding: 9px 18px;
+  }
+
+  .read-the-docs {
+    font-size: 13px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE — MOBILE (≤ 480px)
+   ============================================ */
+
+@media (max-width: 480px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 3.5em;
+    padding: 0.75em;
+  }
+
+  .card {
+    padding: 1.25em 1em;
+    border-radius: 12px;
+    margin: 0.5rem auto;
+  }
+
+  h1 { font-size: clamp(1.5rem, 8vw, 2rem); }
+  h2 { font-size: clamp(1.2rem, 6vw, 1.6rem); }
+  h3 { font-size: 1.1rem; }
+  p  { font-size: 14.5px; line-height: 1.65; }
+
+  button {
+    font-size: 14px;
+    padding: 10px 16px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .read-the-docs {
+    font-size: 12.5px;
+  }
+
+  a:nth-of-type(2) .logo {
+    animation: none;
+  }
+}
+
+/* ============================================
+   RESPONSIVE — LARGE DESKTOP (≥ 1400px)
+   ============================================ */
+
+@media (min-width: 1400px) {
+  #root {
+    padding: 3rem;
+  }
+
+  .logo {
+    height: 7em;
+    padding: 1.75em;
+  }
+
+  .card {
+    padding: 2.5em;
+    max-width: 720px;
+  }
+
+  h1 { font-size: 4rem; }
+  h2 { font-size: 2.75rem; }
+  p  { font-size: 17px; }
+
+  button {
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+}

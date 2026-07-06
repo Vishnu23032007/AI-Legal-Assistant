@@ -1,0 +1,161 @@
+# Services/Stage3_service.py
+
+import os
+from openai import OpenAI
+from typing import Dict, List, Tuple
+
+
+class Stage3Service:
+    def __init__(self):
+        api_key = os.getenv("OPENROUTER_API_KEY", "your-api-key-here")
+
+        self.client = OpenAI(
+            api_key=api_key,
+            base_url="https://openrouter.ai/api/v1"
+        )
+
+    # --------------------------------------------------
+    # 1️⃣ Structured Legal Consultation System Prompt
+    # --------------------------------------------------
+    def _build_system_prompt(self) -> str:
+        return """
+You are a senior Indian advocate with 20+ years of courtroom experience.
+
+You are speaking DIRECTLY to the person asking the question.
+
+IMPORTANT TONE RULE:
+- Always address the person as "you".
+- Never refer to them as "the client".
+- Do not use third-person narration.
+- Speak like you are advising them personally in your office.
+
+You MUST respond strictly in structured Markdown format.
+
+Formatting Rules (MANDATORY):
+- Use Markdown headings with ## for each section.
+- Use bullet points under every section.
+- Keep points concise and practical.
+- Do NOT write long paragraphs.
+- Do NOT write conversational filler.
+- Do NOT give generic safety disclaimers.
+- Do NOT mention that you are an AI.
+
+The response MUST follow this exact structure:
+
+## 1. Brief Understanding of the Situation
+- ...
+
+## 2. Legal Position
+- ...
+
+## 3. Relevant Legal Principles
+- ...
+
+## 4. Strengths in Your Case
+- ...
+
+## 5. Possible Weaknesses / Risks
+- ...
+
+## 6. Your Legal Rights
+- ...
+
+## 7. Strategic Next Steps (How to Approach)
+- Start each point with action-oriented advice using "You should", "You can", or "You must".
+
+## 8. Required Documents / Evidence
+- ...
+
+## 9. Important Risks / Limitation Issues
+- ...
+
+Be strategic, practical, and courtroom-oriented.
+Sound confident and authoritative.
+
+"""
+
+    # --------------------------------------------------
+    # 2️⃣ Out-of-Scope / Illegal Prompt
+    # --------------------------------------------------
+    def _build_general_prompt(self) -> str:
+        return """
+You are a responsible AI legal assistant.
+
+If the request involves illegal activity:
+- Clearly refuse assistance.
+- Explain that unlawful conduct cannot be supported.
+
+If the query is outside legal domain:
+- Politely inform the user.
+- Suggest consulting a relevant professional.
+
+Keep tone professional and calm.
+"""
+
+    # --------------------------------------------------
+    # 3️⃣ Main Response Generator (With Memory)
+    # --------------------------------------------------
+    def generate_response(
+        self,
+        user_prompt: str,
+        stage1_label: str,
+        legal_category: str = None,
+        conversation_history: List[Tuple[str, str]] = None
+    ) -> Dict:
+
+        try:
+            # -------------------------
+            # Build Conversation Memory
+            # -------------------------
+            context_prompt = ""
+            if conversation_history:
+                for q, a in conversation_history[-3:]:
+                    context_prompt += f"Client: {q}\nLawyer: {a}\n\n"
+
+            full_user_prompt = context_prompt + f"Client: {user_prompt}\nLawyer:"
+
+            # -------------------------
+            # Legal Request
+            # -------------------------
+            if stage1_label == "LEGAL_REQUEST":
+                system_prompt = self._build_system_prompt()
+
+                user_message = f"""
+Legal Category: {legal_category}
+
+Client's Situation:
+{full_user_prompt}
+
+Provide structured legal consultation accordingly.
+"""
+            else:
+                # Out-of-scope / Illegal
+                system_prompt = self._build_general_prompt()
+                user_message = full_user_prompt
+
+            # -------------------------
+            # LLM Call
+            # -------------------------
+            response = self.client.chat.completions.create(
+                model="meta-llama/llama-3.3-70b-instruct",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_message}
+                ],
+                temperature=0.5,
+                max_tokens=1000
+            )
+
+            return {
+                "stage": "stage3",
+                "status": "success",
+                "category": legal_category,
+                "response": response.choices[0].message.content.strip()
+            }
+
+        except Exception as e:
+            return {
+                "stage": "stage3",
+                "status": "error",
+                "message": str(e)
+            }
